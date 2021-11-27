@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#contenedorProductos{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card{
+
+    width: 12rem;
+   
+    
+}
+
+@media screen and (max-width: 320px) {
+    table {
+      display: block;
+      overflow-x: auto;
+    }
+    
+}
+@media screen and (max-width: 576px) {
+   
+    .card{
+        width: 20rem;
+    }
+}
